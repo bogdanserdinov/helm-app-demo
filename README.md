@@ -13,3 +13,8 @@ helm install <release-name> ./example -n <namespace>
 ```
 
 You can override default values by providing your own values file or using `set` flag.
+
+Example:
+```bash
+helm install <release-name> ./example --set service.port=9090 --set config.serverPort=9090 -n <namespace>
+```
