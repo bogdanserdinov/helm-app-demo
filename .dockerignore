@@ -1,0 +1,5 @@
+k8s
+Dockerfile
+.gitignore
+.idea
+build-and-push-image.sh
